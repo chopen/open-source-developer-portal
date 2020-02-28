@@ -30,7 +30,7 @@ In this article we’ll cover the steps involved with obtaining a `plaidToken`, 
 ### Step 1 - Set up an account and integrate with Plaid Link
 To get started, verify that your Plaid account is enabled for the Dwolla integration. Your account will be automatically enabled for Plaid's Sandbox and Development environments once you’ve created an account. Once your Plaid account is setup, add Plaid Link to your site.
 
-A high-level overview of Plaid Link can be referenced below, however reference the [Plaid documentation](https://plaid.com/docs/link/dwolla/) for more information on integrating with Plaid Link.
+A high-level overview of Plaid Link can be referenced below, however reference the [Plaid documentation](https://plaid.com/docs/dwolla/) for more information on integrating with Plaid Link.
 
 #### Plaid Link
 Plaid Link is handled completely on the client-side using JavaScript. Set up Link using only a few lines of Javascript, and then specify callbacks to handle the `public_token` after the user has authenticated and created an Item.
