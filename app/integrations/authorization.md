@@ -70,11 +70,11 @@ Read, Write and Read, Write + Transact permissions will all be available by defa
 
 | Parameter | Description |
 |-----------|----------|
-| client_id | *Required* </br> Your application key that can be retrieved from the Dwolla Sandbox Dashboard. |
-| redirect_uri | *Required* </br> URL where the user will be redirected to, after accepting or rejecting permissions. The value of this parameter must match the value specified in your email to Dwolla to get access. Dwolla compares: protocol, subdomain, domain, tld, and file path. Additional query string parameters are ignored. |
-| response_type | *Required* </br> Value of `code`. |
-| scope | *Required* </br> Permissions your application is requesting. Scopes are specified via a space-delimited list ("%20"). In Sandbox, you can just set this list to ‘send funding managecustomers transactions accountinfofull openid’ which will give your integration full access to the client’s account. **Note:** Explicit request of scopes will change. Integration applications will be subject to review of allowed permissions by the Dwolla team. |
-| state | *Optional* </br> Indicates any state which may be useful to your application upon redirect. Dwolla passes this value through the OAuth flow, so your application receives the same value it sent in the initial authorization request. Possible uses include redirecting the user to the correct resource in your site, nonces and cross-site-request-forgery (XRSF) mitigations. |
+| client_id | *Required* <br> Your application key that can be retrieved from the Dwolla Sandbox Dashboard. |
+| redirect_uri | *Required* <br> URL where the user will be redirected to, after accepting or rejecting permissions. The value of this parameter must match the value specified in your email to Dwolla to get access. Dwolla compares: protocol, subdomain, domain, tld, and file path. Additional query string parameters are ignored. |
+| response_type | *Required* <br> Value of `code`. |
+| scope | *Required* <br> Permissions your application is requesting. Scopes are specified via a space-delimited list ("%20"). In Sandbox, you can just set this list to ‘send funding managecustomers transactions accountinfofull openid’ which will give your integration full access to the client’s account. **Note:** Explicit request of scopes will change. Integration applications will be subject to review of allowed permissions by the Dwolla team. |
+| state | *Optional* <br> Indicates any state which may be useful to your application upon redirect. Dwolla passes this value through the OAuth flow, so your application receives the same value it sent in the initial authorization request. Possible uses include redirecting the user to the correct resource in your site, nonces and cross-site-request-forgery (XRSF) mitigations. |
 
 
 ###### Example Request URL
